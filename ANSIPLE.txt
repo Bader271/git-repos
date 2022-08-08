@@ -1,0 +1,36 @@
+my first is 1
+
+ssh conect
+ssh -i "ubutukeyy.pem" ubuntu@ec2-44-204-55-251.compute-1.amazonaws.com
+
+set up ansipal 
+
+Setup Ansible –
+
+1.	Launch 3 EC2 Instances (Ubuntu), t2.micro (for free eligibility)
+2.	Install Ansible on the first machine.
+
+sudo apt update
+sudo apt install -y software-properties-common
+sudo apt-add-repository --yes --update ppa:ansible/ansible
+sudo apt install -y ansible
+
+3.	Create SSH without password
+
+Copy the public SSH key from the source machine to the target machine.
+
+Try ssh to the other image
+
+
+
+my second is 2
+
+ssh ubuntu@ec2-3-83-178-108.compute-1.amazonaws.com
+
+my third is 3
+ssh ubuntu@ec2-3-86-12-27.compute-1.amazonaws.com
+
+
+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
+
+sqp_44447658583d93524b417f9c3e2c07f817163019
